@@ -1,0 +1,17 @@
+.progress-bar {
+  background-color: #00a859;
+}
+
+.card-body {
+  border-top: 1px solid rgba(0, 0, 0, .125);
+  border-radius: 0.25rem;
+}
+
+li {
+  text-align: left;
+  list-style: none;
+}
+
+span {
+  color: #00a859;
+}
