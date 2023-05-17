@@ -3,7 +3,7 @@
         <a class="navbar-brand">
             <img src="./assets/images/favicon.ico" alt="" width="30" height="24"
                 class="d-inline-block align-text-top text-center" />
-            Jeferson Fonseca Soto
+            Ing. Jeferson Fonseca Soto
         </a>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
@@ -36,11 +36,11 @@
 
 <header>
     <div class="text-center py-3">
-        <img class="avatar" src="./assets/images/perfil.jpg" alt="Jeffer Fonseca" />
+        <img class="avatar" src="./assets/images/perfil.jpeg" alt="Jeffer Fonseca" />
     </div>
 </header>
 
 <div class="container perfil text-center py-4">
-    <h1 id="nombre">Jeferson Fonseca Soto</h1>
-    <h2>Desarrolador Full Stack (Junior)</h2>
+    <h1 id="nombre">Ing. Jeferson Fonseca Soto</h1>
+    <h2>Desarrolador (Junior)</h2>
 </div>

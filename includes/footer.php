@@ -15,7 +15,6 @@
     </div>
 </div>
 
-
 <div class="container text-center">
     <a href="https://drive.google.com/file/d/16IgACfQysCJv1loKzyDhxvsEvzmcIfnG/view?usp=share_link" class="btn">Resumen
         de CV</a>
@@ -25,6 +24,15 @@
     </button>
 </div>
 <br>
+<script>
+    //activa o desactiva el menu de contacto de acuerdo al estado del checkbox
+    function contacto() {
+        if (document.getElementById("btn-mas").checked)
+            document.getElementById("btn-mas").checked = false;
+        else
+            document.getElementById("btn-mas").checked = true;
+    }
+</script>
 <footer>
     <div class="bg-dark fixed-bottom">
         <p class="text-white text-center"><b>Design by: </b>Ing. Jeferson Fonseca Soto.</p>

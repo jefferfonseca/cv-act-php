@@ -1,3 +1,47 @@
+/*----------------------------------HEADER------------------------------------------------------*/
+body,
+  html {
+    height: 100%;
+    font-family: "Verb", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+  }
+
+  header {
+    border-bottom: 4px solid white;
+    background-image: url('../assets/images/header.jpg');
+  }
+
+  img.avatar {
+    border-radius: 50%;
+    border: 4px solid white;
+    width: 15rem;
+    height: 15rem;
+    overflow: hidden;
+    /* animation: mover 3s 1; */
+  }
+
+  h1 {
+    font-size: 40px;
+    color: #27353f;
+    line-height: 30px;
+    margin: 0 0 5px;
+  }
+
+  h2 {
+    font-size: 25px;
+    color: #63717b;
+    line-height: 23px;
+    margin: 0 0 5px;
+  }
+
+  p {
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.5em;
+    font-weight: 400;
+    word-break: break-all;
+  }
+
+/*----------------------------------STYLE------------------------------------------------------*/
 .card-body {
   border-top: 1px solid rgba(0, 0, 0, .125);
   border-radius: 0.25rem;
@@ -12,6 +56,123 @@ section{
 .col{
   min-height: 30em;
 }
-p{
+
+/*----------------------------------PERFIL------------------------------------------------------*/
+.badge {
+  background-color: #00a859
+}
+
+p {
+  text-align: justify;
   color: black;
 }
+
+/*----------------------------------PORTAFOLIO------------------------------------------------------*/
+.card-body {
+  border-top: 1px solid rgba(0, 0, 0, .125);
+  border-radius: 0.25rem;
+}
+
+li{
+  text-align: left;
+  list-style: none;
+}
+img{
+  border-radius: 5px;
+}
+span {
+  color: #00a859;
+}
+
+/*----------------------------------SKILLS------------------------------------------------------*/
+.progress-bar {
+  background-color: #00a859;
+}
+
+.card-body {
+  border-top: 1px solid rgba(0, 0, 0, .125);
+  border-radius: 0.25rem;
+}
+
+li {
+  text-align: left;
+  list-style: none;
+}
+
+/*----------------------------------SKILLS------------------------------------------------------*/
+#btn-mas {
+  display: none;
+}
+
+.container-btn {
+  position: fixed;
+  bottom: 45px;
+  right: 10px;
+  z-index: 1030;
+}
+
+.redes a,
+.fa-angle-up {
+  display: block;
+  text-decoration: none;
+  background-color: #00a859;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: O 1 10 rgba(0, 0, 0, 4);
+  transition: all 400ms ease;
+}
+
+.redes a:hover {
+  background: #fff;
+  color: #00a859;
+}
+
+.redes a {
+  margin: -15px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#btn-mas:checked~.redes a {
+  margin: 10px;
+  opacity: 1;
+  visibility: visible;
+}
+
+#btn-mas:checked~.btn-mas .fa-angle-up {
+  color: #00a859;
+  background-color: #fff;
+  border: 2px solid #00a859;
+  transform: rotate(180deg);
+  font-size: 25px;
+}
+
+/*----------------------------------SKILLS------------------------------------------------------*/
+h4{
+  color: #00a859;
+  padding-top: 20px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color: #00a859;
+  color: #fff;
+}
+.container.estudio{
+    border-bottom: 3px solid #00a859;
+}
+.nav-link.nav-link {
+  color: #00a859;
+}
+
+.nav-link.active {
+  background-color: #00a859;
+  color: white;
+}
+
+p, h5,h6 {
+  margin: 0;
+}
+

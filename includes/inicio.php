@@ -1,26 +1,23 @@
 <section>
-
-
-
     <div class="p-3">
         <div class="row row-cols-1 row-cols-md-4 g-4">
-            <a  href="#" class="text-decoration-none" onclick="activarDiv(event, 'skills')">
+            <a  name="#" class="text-decoration-none" onclick="activarDiv(event, 'skills')">
                 <div class="col">
                     <div class="card h-100">
                         <div class="container">
                             <img src="./assets/images/skills.png" class="card-img-top py-4" alt="skills" />
                         </div>
                         <div class="card-body">
-                            <h5>Skills</h5>
+                            <h5 class="card-title">Skills</h5>
                             <p class="card-text">
-                                Como profesional he logrado desarrollos los siguientes skills.
+                                Como profesional he logrado desarrollar los siguientes skills.
                             </p>
                         </div>
                     </div>
                 </div>
             </a >
 
-            <a  href="#" class="text-decoration-none" onclick="activarDiv(event, 'portafolio')">
+            <a  name="#" class="text-decoration-none" onclick="activarDiv(event, 'portafolio')">
                 <div class="col">
                     <div class="card h-100">
                         <div class="container">
@@ -36,7 +33,7 @@
                 </div>
             </a>
 
-            <a  href="#" class="text-decoration-none" onclick="activarDiv(event, 'experiencia')">
+            <a  name="#" class="text-decoration-none" onclick="activarDiv(event, 'experiencia')">
                 <div class="col">
                     <div class="card h-100">
                         <div class="container">
@@ -52,7 +49,7 @@
                 </div>
             </a>
 
-            <a  href="#" class="text-decoration-none" onclick="activarDiv(event, 'contacto')">
+            <a  name= "#" class="text-decoration-none" onclick="contacto()">
                 <div class="col">
                     <div class="card h-100">
                         <div class="container">
