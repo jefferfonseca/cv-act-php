@@ -3,11 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-
-
     <title>CV - Ing. Jeferson Fonseca Soto</title>
-
-
 
     <meta name="author" content="Ing. Jeferson Fonseca Soto" />
     <meta name="description" content="Ingeniero de Sistemas, especialista en aplicación de las TIC para la enseñanza
@@ -18,8 +14,6 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
-
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -29,38 +23,38 @@
 </head>
 
 <body>
-    <?php include 'includes\header.php';?>
+    <?php include 'includes/header.php';?>
 
 
     <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="Inicio-tab-pane" role="tabpanel" aria-labelledby="Inicio-tab"
             tabindex="0">
-            <?php include 'includes\inicio.php';?>
+            <?php include 'includes/inicio.php';?>
         </div>
 
         <div class="tab-pane fade" id="about-tab-pane" role="tabpanel" aria-labelledby="about-tab" tabindex="0">
-            <?php include 'includes\basic.php';?>
+            <?php include 'includes/basic.php';?>
         </div>
 
         <div class="tab-pane fade" id="perfil-tab-pane" role="tabpanel" aria-labelledby="perfil-tab" tabindex="0">
-            <?php include 'includes\perfil.php';?>
+            <?php include 'includes/perfil.php';?>
         </div>
 
         <div class="tab-pane fade" id="skills-tab-pane" role="tabpanel" aria-labelledby="skills-tab" tabindex="0">
-            <?php include 'includes\skills.php';?>
+            <?php include 'includes/skills.php';?>
         </div>
 
         <div class="tab-pane fade" id="expeciancia-tab-pane" role="tabpanel" aria-labelledby="expeciancia-tab" tabindex="0">
-            <?php include 'includes\expeciancia.php';?>
+            <?php include 'includes/expeciancia.php';?>
         </div>
 
         <div class="tab-pane fade" id="portafolio-tab-pane" role="tabpanel" aria-labelledby="portafolio-tab"
             tabindex="0">
-            <?php include 'includes\portafolio.php';?>
+            <?php include 'includes/portafolio.php';?>
         </div>
     </div>
 
-    <?php include 'includes\footer.php';?>
+    <?php include 'includes/footer.php';?>
 
     <script>
         function activarDiv(event, div) {
