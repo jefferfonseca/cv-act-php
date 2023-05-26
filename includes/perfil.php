@@ -1,4 +1,5 @@
-<div class="container w-70 text-center">
+<section >
+    <div class="container w-70 text-center">
     <span class="badge rounded-pill ">Exacto&nbsp;</span>&nbsp;
     <span class="badge rounded-pill ">Activo</span>&nbsp;
     <span class="badge rounded-pill ">Sistemático</span>&nbsp;
@@ -30,4 +31,21 @@
         pérdida de tiempo las conversaciones sociales "irrelevantes".
     </p>
     <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
 </div>
+</section>

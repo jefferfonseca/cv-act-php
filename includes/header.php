@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <a class="navbar-brand">
             <img src="./assets/images/favicon.ico" alt="" width="30" height="24"
-                class="d-inline-block align-text-top text-center" />
+                class="d-inline-block align-text-top text-center logo" />
             Ing. Jeferson Fonseca Soto
         </a>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -35,12 +35,14 @@
 </nav>
 
 <header>
-    <div class="text-center py-3">
-        <img class="avatar" src="./assets/images/perfil.jpeg" alt="Jeffer Fonseca" />
+    <video id="video-background" autoplay loop muted>
+        <source src="./assets/video/v.mp4" type="video/mp4">
+    </video>
+    <div id="video-content">
+        <img id="video-overlay" src="./assets/images/perfil.jpeg" alt="Imagen">
     </div>
 </header>
-
-<div class="container perfil text-center py-4">
+<div class="container perfil text-center scroll-nombre">
     <h1 id="nombre">Ing. Jeferson Fonseca Soto</h1>
     <h2>Desarrolador (Junior)</h2>
 </div>

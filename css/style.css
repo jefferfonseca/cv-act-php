@@ -1,71 +1,97 @@
 /*----------------------------------HEADER------------------------------------------------------*/
 body,
-  html {
-    height: 100%;
-    font-family: "Verb", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
-  }
+html {
+  font-family: "Verb", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+}
 
-  header {
-    border-bottom: 4px solid white;
-    background-image: url('../assets/images/header.jpg');
-  }
+header {
+  position: relative;
+  height: 30em;
+  overflow: hidden;
+}
 
-  img.avatar {
-    border-radius: 50%;
-    border: 4px solid white;
-    width: 15rem;
-    height: 15rem;
-    overflow: hidden;
-    /* animation: mover 3s 1; */
-  }
+#video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
 
-  h1 {
-    font-size: 40px;
-    color: #27353f;
-    line-height: 30px;
-    margin: 0 0 5px;
-  }
+#video-content {
+  position: relative;
+  height: 100%;
+  display: flex;
+}
 
-  h2 {
-    font-size: 25px;
-    color: #63717b;
-    line-height: 23px;
-    margin: 0 0 5px;
-  }
+#video-overlay {
+  position: absolute;
+  top: 8rem;
+  left: 8rem;
+  transform: translate(-50%, -50%);
+  border-bottom-right-radius: 40%;
+  border: 4px solid black;
+  width: 20em;
+  height: auto;
+  overflow: hidden;
+  margin-top: 50px
+}
 
-  p {
-    margin: 0 auto;
-    font-size: 15px;
-    line-height: 1.5em;
-    font-weight: 400;
-    word-break: break-all;
-  }
+.perfil {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #27353f;
+  line-height: 30px;
+  margin: 0 0 5px;
+}
+
+h2 {
+  font-size: 25px;
+  color: #63717b;
+  line-height: 23px;
+  margin: 0 0 5px;
+}
+
+p {
+  margin:  30px;
+  font-size: 15px;
+  line-height: 1.5em;
+  font-weight: 400;
+  word-break: break-all;
+  text-align: justify;
+  color: black;
+}
 
 /*----------------------------------STYLE------------------------------------------------------*/
 .card-body {
   border-top: 1px solid rgba(0, 0, 0, .125);
   border-radius: 0.25rem;
 }
-.card-body{
+
+.card-body {
   color: black;
   text-align: center;
 }
-section{
+
+section {
   background-color: rgba(82, 81, 81, 0.125);
 }
-.col{
+
+.col {
   min-height: 30em;
 }
 
 /*----------------------------------PERFIL------------------------------------------------------*/
 .badge {
-  background-color: #00a859
+  background-color: #00a859;
+  margin-top: 40px;
 }
 
-p {
-  text-align: justify;
-  color: black;
-}
 
 /*----------------------------------PORTAFOLIO------------------------------------------------------*/
 .card-body {
@@ -73,13 +99,15 @@ p {
   border-radius: 0.25rem;
 }
 
-li{
+li {
   text-align: left;
   list-style: none;
 }
-img{
+
+img {
   border-radius: 5px;
 }
+
 span {
   color: #00a859;
 }
@@ -152,17 +180,21 @@ li {
 }
 
 /*----------------------------------SKILLS------------------------------------------------------*/
-h4{
+h4 {
   color: #00a859;
   padding-top: 20px;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
   background-color: #00a859;
   color: #fff;
 }
-.container.estudio{
-    border-bottom: 3px solid #00a859;
+
+.container.estudio {
+  border-bottom: 3px solid #00a859;
 }
+
 .nav-link.nav-link {
   color: #00a859;
 }
@@ -172,7 +204,7 @@ h4{
   color: white;
 }
 
-p, h5,h6 {
+h5,
+h6 {
   margin: 0;
 }
-

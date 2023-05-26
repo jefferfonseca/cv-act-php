@@ -66,7 +66,7 @@
                 </div>
             </div>
             <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-                <div class="container">
+                <div class="container ">
                     <ul>
                         <li>
                             <span class="material-icons">done</span> Apoyo extracurricular.

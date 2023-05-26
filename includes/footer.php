@@ -35,6 +35,6 @@
 </script>
 <footer>
     <div class="bg-dark fixed-bottom">
-        <p class="text-white text-center"><b>Design by: </b>Ing. Jeferson Fonseca Soto.</p>
+        <p class="text-white text-center m-1"><b>Design by: </b>Ing. Jeferson Fonseca Soto.</p>
     </div>
 </footer>
