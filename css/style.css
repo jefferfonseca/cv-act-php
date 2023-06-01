@@ -6,7 +6,7 @@ html {
 
 header {
   position: relative;
-  height: 30em;
+  height: 400px;
   overflow: hidden;
 }
 
@@ -27,15 +27,15 @@ header {
 
 #video-overlay {
   position: absolute;
-  top: 8rem;
-  left: 8rem;
+  top: 100px;
+  left: 10%;
   transform: translate(-50%, -50%);
   border-bottom-right-radius: 40%;
-  border: 4px solid black;
-  width: 20em;
+  border: 20px ridge #00a85ae2;
+  width: 20%;
   height: auto;
   overflow: hidden;
-  margin-top: 50px
+  margin-top: 5%
 }
 
 .perfil {
@@ -58,7 +58,7 @@ h2 {
 }
 
 p {
-  margin:  30px;
+  margin: 30px;
   font-size: 15px;
   line-height: 1.5em;
   font-weight: 400;
@@ -207,4 +207,16 @@ h4 {
 h5,
 h6 {
   margin: 0;
+}
+
+@media only screen and (max-width: 600px){
+  #video-overlay {
+    top: 90px;
+    left: 10%;
+    width: 35%;
+  }
+
+  header {
+    height: 200px;
+  }
 }

@@ -29,7 +29,7 @@
                     </ul>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                   <small class="text-muted time" data-last-updated="2023-05-30T14:30:00Z"></small>
                 </div>
             </div>
         </div>
@@ -71,7 +71,8 @@
                     </ul>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <small class="text-muted time" ></small>
+
                 </div>
             </div>
         </div>
@@ -91,7 +92,8 @@
                     </ul>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                     <small class="text-muted time"></small>
+
                 </div>
             </div>
         </div>
@@ -117,7 +119,8 @@
                     </ul>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <small class="text-muted time"></small>
+
                 </div>
             </div>
         </div>

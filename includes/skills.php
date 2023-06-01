@@ -68,7 +68,8 @@
                     </ul>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                    <small class="text-muted time" data-last-updated="2023-05-29T10:30:00Z"></small>
+
                 </div>
             </div>
         </div>
@@ -100,6 +101,17 @@
                                 <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
                                     style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
                                     50%
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <h6>
+                                <b><span class="material-icons">done</span> C#</b>
+                            </h6>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                    style="width: 55%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                                    55%
                                 </div>
                             </div>
                         </li>
@@ -185,7 +197,7 @@
                     </ul>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-muted time" data-last-updated="2023-05-30T14:30:00Z"></small>
                 </div>
             </div>
         </div>
@@ -246,7 +258,7 @@
                     </ul>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                   <small class="text-muted time" data-last-updated="2023-05-30T14:30:00Z"></small>
                 </div>
             </div>
         </div>
@@ -299,7 +311,8 @@
                     </ul>
                 </div>
                 <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                                    <small class="text-muted time" data-last-updated="2023-05-30T14:30:00Z"></small>
+
                 </div>
             </div>
         </div>

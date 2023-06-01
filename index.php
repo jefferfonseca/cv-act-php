@@ -5,9 +5,18 @@
     <meta charset="utf-8">
     <title>CV - Ing. Jeferson Fonseca Soto</title>
 
-    <meta name="author" content="Ing. Jeferson Fonseca Soto" />
-    <meta name="description" content="Ingeniero de Sistemas, especialista en aplicación de las TIC para la enseñanza
-      y desarrollador Full Stack (Junior)" />
+    <!--información de la vista previa de redes-->
+
+    <meta property="og:type" content="website" />
+    <meta name="author" content="CV - Ing. Jeferson Fonseca Soto" />
+    <meta property="og:title" content="CV -  Ing. Jeferson Leonel Fonseca Soto.">
+    <meta property="og:description" content="Ingeniero de Sistemas, especialista en aplicación de las TIC para la enseñanza
+      maestrando Recursos Digitales Aplicados a la Educación y desarrollador Full Stack (Junior)">
+    <meta property="og:image" content="https://ingjefersonfonsecasoto.com.co/assets/images/favicon1.png">
+    <meta property="og:image:width" content="83" /><!-- Importante -->
+    <meta property="og:image:height" content="83" /><!-- Importante -->
+
+
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
@@ -45,8 +54,9 @@
             <?php include 'includes/skills.php';?>
         </div>
 
-        <div class="tab-pane fade" id="expeciancia-tab-pane" role="tabpanel" aria-labelledby="expeciancia-tab" tabindex="0">
-            <?php include 'includes/expeciancia.php';?>
+        <div class="tab-pane fade" id="experiencia-tab-pane" role="tabpanel" aria-labelledby="experiencia-tab"
+            tabindex="0">
+            <?php include 'includes/experiencia.php';?>
         </div>
 
         <div class="tab-pane fade" id="portafolio-tab-pane" role="tabpanel" aria-labelledby="portafolio-tab"
@@ -83,8 +93,8 @@
                     break;
                 case "experiencia":
                     console.log("class = " + div);
-                    document.getElementById("expeciancia-tab-pane").classList.add("show", "active");
-                    document.getElementById("expeciancia-tab").classList.add("active");
+                    document.getElementById("experiencia-tab-pane").classList.add("show", "active");
+                    document.getElementById("experiencia-tab").classList.add("active");
                     break;
                 case "-":
                     console.log("class = " + div);
@@ -93,12 +103,48 @@
                     break;
             }
         }
+        //función de ultima actualziación
+        function getLastUpdatedTimeAgo() {
+            const lastUpdated = new Date(
+            "2023-05-29T10:30:00"); // Reemplaza esta fecha y hora con la última actualización real
+
+            const currentTime = new Date();
+            const timeDifference = currentTime.getTime() - lastUpdated.getTime();
+
+            const seconds = Math.floor(timeDifference / 1000);
+            const minutes = Math.floor(seconds / 60);
+            const hours = Math.floor(minutes / 60);
+            const days = Math.floor(hours / 24);
+            const months = Math.floor(days / 30);
+            const years = Math.floor(months / 12);
+
+            if (years > 0) {
+                return years === 1 ? "Hace 1 año" : "Hace " + years + " años";
+            } else if (months > 0) {
+                return months === 1 ? "Hace 1 mes" : "Hace " + months + " meses";
+            } else if (days > 0) {
+                return days === 1 ? "Hace 1 día" : "Hace " + days + " días";
+            } else if (hours > 0) {
+                return hours === 1 ? "Hace 1 hora" : "Hace " + hours + " horas";
+            } else if (minutes > 0) {
+                return minutes === 1 ? "Hace 1 minuto" : "Hace " + minutes + " minutos";
+            } else {
+                return "Hace unos segundos";
+            }
+        }
+
+        // Ejemplo de uso
+        const timeElements = document.querySelectorAll('small.time');
+        timeElements.forEach((element) => {
+            // Modificar el texto como desees
+            element.textContent = 'Última actualización: ' + getLastUpdatedTimeAgo() + ' atrás.';
+        });
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
     </script>
-        <script src="js/index.js"></script>
+    <script src="js/index.js"></script>
 
 </body>
 

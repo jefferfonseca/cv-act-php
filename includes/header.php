@@ -23,8 +23,8 @@
                     type="button" role="tab" aria-controls="skills-tab-pane" aria-selected="false">Skills</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="expeciancia-tab" data-bs-toggle="tab" data-bs-target="#expeciancia-tab-pane"
-                    type="button" role="tab" aria-controls="expeciancia-tab-pane" aria-selected="false">Expeciancia</button>
+                <button class="nav-link" id="experiencia-tab" data-bs-toggle="tab" data-bs-target="#experiencia-tab-pane"
+                    type="button" role="tab" aria-controls="experiencia-tab-pane" aria-selected="false">Experiencia</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="portafolio-tab" data-bs-toggle="tab" data-bs-target="#portafolio-tab-pane"

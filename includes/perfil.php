@@ -31,21 +31,5 @@
         pérdida de tiempo las conversaciones sociales "irrelevantes".
     </p>
     <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
 </div>
 </section>
